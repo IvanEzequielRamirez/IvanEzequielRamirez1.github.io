@@ -1,0 +1,122 @@
+
+
+@import "variables";
+
+/*Terror Responsive*/
+
+@media screen and (max-width: 530px){
+
+.ContainerTerror{
+    display: flex;
+    flex-direction: column;
+
+.cajaa1{display: flex;
+    flex-direction: column;}
+    .cajaa2{display: flex;
+        flex-direction: column;
+    margin-top: -350px;}
+        .cajaa4{display: flex;
+            flex-direction: column;
+            margin-top: -350px;
+        margin-left: -350px;}
+            .cajaa5{display: flex;
+                flex-direction: column;
+                margin-top: -650px;
+            margin-bottom: -500px;}
+                .TituloTerror{font-size: 15px;}
+
+}
+}
+/*Drama Responsive*/
+
+@media screen and (max-width: 530px){
+
+.ContenidoDrama{
+    display: flex;
+    flex-direction: column;
+
+    .caaja1{display: flex;
+        flex-direction: column;}
+        .caaja2{display: flex;
+            flex-direction: row;
+        margin-top: 500px;
+        margin-left: -300px;}
+            .caaja3{display: flex;
+                flex-direction: column;
+            margin-top: -900px;}
+            .caaja4{display: flex;
+                flex-direction: column;}
+                .caaja5{display: flex;
+                    flex-direction: column;
+               margin-top: 100px;
+            margin-left: -150px;
+        margin-bottom: 150px;}
+                    .caaja6{display: flex;
+                        flex-direction: column;}
+                   .VolverDrama{font-size: 17px;}
+                        .TituloDrama{font-size: 20px;}
+                        .TrailerDrama1{height: 200px;width: 300px;}               
+}
+}
+
+/*Index Responsive*/
+
+@media screen and (max-width: 530px){
+
+    .containerIndex{
+        display: flex;
+        flex-direction: column; 
+    .Caja1{display: flex;
+        flex-direction: column;
+        margin-left: -200px;}
+    .Caja2{display: flex;
+        flex-direction: column;
+        margin-left: -200px;
+        .InicioRecomendadas
+        {display: flex;
+        flex-direction: column;
+    margin-left: -50px;}
+    }
+    .Caja3{display: flex;
+        flex-direction: column;
+        margin-left: -220px;}
+    .Caja4{display: flex;
+        flex-direction: column;
+    margin-left: -100px;}
+    .Caja5{display: flex;
+        flex-direction: column;
+    margin-top: -200px;} 
+        .Caja7{display: flex;
+            flex-direction: column;
+        margin-left: -500px;}
+        .InicioRecomendadas{display: flex;
+            flex-direction: column;}
+            .videoInicio1{
+                width: 200px;
+                height: 180px;}
+            }
+            .RemomendacionesIndex{
+                font-size: 18px;
+            }
+}
+
+/*Responsive Recomendados*/
+
+@media screen and (max-width: 530px){
+    .ContenidoCinesRec{display: flex;
+.caja1{display: flex;
+    flex-direction: column;}
+.caja2{display:flex; flex-direction: column;}
+.caja3{display:flex; flex-direction: column;}
+.caja4{display:flex; flex-direction: column;
+    .TextoCine{font-size: 15px;}}
+.caja5{display:flex; flex-direction: column;}
+.caja6{display:flex; flex-direction: column;
+.Mapa3{width: 100px;}
+}
+}
+
+
+
+}
+
